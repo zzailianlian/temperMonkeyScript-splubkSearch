@@ -15,23 +15,21 @@
   'use strict';
 
   document.onkeydown = function (event) {
-      var e = event || window.event;
-      console.log(e, e.keyCode);
-       if (e && e.altKey && e.keyCode == 82) { 
-         // 按 Mac 的 option + r 或者 Windows 的Alt + r
-         // 重新搜索splunk
-         document.querySelector("body > div.shared-page > div.main-section-body > div > div.section-padded.section-header > div.search-bar-wrapper.shared-searchbar > form > table > tbody > tr > td.search-button > a").click()
-       }
-      if (e && e.keyCode == 27) { // 按 Esc
-          //...
-      }
-      if (e && e.keyCode == 113) { // 按 F2
-          //...
-      }
-      if (e && e.keyCode == 13) { // enter 键
-          //...
-      }
+    var e = event || window.event;
+    console.log(e, e.keyCode);
+    if (e && e.altKey && e.keyCode == 82) {
+      // 按 Mac 的 option + r 或者 Windows 的Alt + r
+      // 重新搜索splunk
+      document.querySelector("body > div.shared-page > div.main-section-body > div > div.section-padded.section-header > div.search-bar-wrapper.shared-searchbar > form > table > tbody > tr > td.search-button > a").click()
+    }
+    if (e && e.keyCode == 27) { // 按 Esc
+      //...
+    }
+    if (e && e.keyCode == 113) { // 按 F2
+      //...
+    }
+    if (e && e.keyCode == 13) { // enter 键
+      //...
+    }
   };
-
-  // Your code here...
 })();
