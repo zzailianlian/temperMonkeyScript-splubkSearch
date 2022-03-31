@@ -2,7 +2,7 @@
 // @name         splunk search
 // @name:zh-CN   splunk快速搜索
 // @namespace    http://tampermonkey.net/
-// @version      0.14
+// @version      0.15
 // @description  通过键入 `option + r` 来实现splunk快速搜索!
 // @author       https://github.com/zzailianlian
 // @license      MIT
@@ -13,7 +13,6 @@
 
 (function () {
   'use strict';
-  alert('测试更新2');
   document.onkeydown = function (event) {
     var e = event || window.event;
     console.log(e, e.keyCode);
