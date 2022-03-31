@@ -6,14 +6,14 @@
 // @description  通过键入 `option + r` 来实现splunk快速搜索!
 // @author       https://github.com/zzailianlian
 // @license      MIT
-// @match        http://splunk.ali.plt.*/*
+// @match        http://splunk.ali.plt.babytree-inc.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=babytree-inc.com
 // @grant        none
 // ==/UserScript==
 
 (function () {
   'use strict';
-
+  alert('测试更新');
   document.onkeydown = function (event) {
     var e = event || window.event;
     console.log(e, e.keyCode);
