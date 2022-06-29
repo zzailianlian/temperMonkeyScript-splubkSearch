@@ -9,6 +9,7 @@
 // @match        http://splunk.ali.plt.babytree-inc.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=babytree-inc.com
 // @grant        none
+// @updateURL    https://raw.iqiq.io/zzailianlian/temperMonkeyScript-splunkSearch/master/index.js
 // ==/UserScript==
 
 (function () {
